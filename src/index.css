@@ -205,6 +205,12 @@ h2 {
   background-color: #dbeeec;
 }
 
+@media (max-width:420px) {
+  .edit-form input {
+    width: 150px;
+  }
+}
+
 @media (max-width:750px) {
   .todo {
     width: 90%;
